@@ -22,6 +22,8 @@ class HomeViewController extends GetxController {
 
    var restRes =  await   ApiBaseHelper().get("https://jsonplaceholder.typicode.com/posts");
 
+
+
   for(int i = 0  ; i< restRes.length ; i++)
     {
     list.add(CustomModel.fromJson(restRes[i]))  ;
