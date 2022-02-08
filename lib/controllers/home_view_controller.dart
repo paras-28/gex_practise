@@ -24,6 +24,7 @@ class HomeViewController extends GetxController {
 
 
 
+
   for(int i = 0  ; i< restRes.length ; i++)
     {
     list.add(CustomModel.fromJson(restRes[i]))  ;
