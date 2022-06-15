@@ -11,7 +11,6 @@ abstract class BaseWidget extends StatelessWidget {
       backgroundColor: Colors.white,
       body: getBuildWidget(context),
       appBar: getToolbar(context),
-      // bottomNavigationBar: getBottomNavigationBar(context),
     );
   }
 
@@ -20,8 +19,4 @@ abstract class BaseWidget extends StatelessWidget {
   PreferredSizeWidget? getToolbar(BuildContext buildContext) {
     return null;
   }
-
-  // Widget? getBottomNavigationBar(BuildContext context) {
-  //   return BottomNavigationBar(items: items);
-  // }
 }
